@@ -1,5 +1,5 @@
 #!/bin/bash
-mkdir -p submission_reminder_app/{bin,config,lib,data}
+mkdir -p submission_reminder_app/{app,config,modules,assets}
 cat <<EOL > submission_reminder_app/config/config.env
 # Configuration file for the submission reminder app
 APP_NAME="Submission Reminder App"
@@ -26,9 +26,8 @@ chmod +x submission_reminder_app/app/reminder.sh
 
 cat <<EOL > submission_reminder_app/assets/submissions.txt
 # Student submissions
-Phillips Adams, Assignment 1
-Abbie Kate, Assignment 2
-Lati Tifare, Assignment 3
+Chris Adams, Assignment 1
+Jane Kate, Assignment 2
 EOL
 
 cat <<EOL >> submission_reminder_app/assets/submissions.txt
