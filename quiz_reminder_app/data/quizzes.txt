@@ -1,0 +1,8 @@
+# Student quizzes
+Kwame Nkrumah, Quiz 1
+Amina Yusuf, Quiz 2
+Student 1, Quiz 3
+Student 2, Quiz 4
+Student 3, Quiz 5
+Student 4, Quiz 6
+Student 5, Quiz 7
