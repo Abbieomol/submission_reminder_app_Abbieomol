@@ -1,5 +1,5 @@
 #!/bin/bash
-# submission reminder script
+# Reminder script
 
 source ../lib/functions.sh
 display_reminder

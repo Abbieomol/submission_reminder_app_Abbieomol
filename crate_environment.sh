@@ -5,7 +5,7 @@ cat <<EOL > submission_reminder_app/config/config.env
 APP_NAME="Submission Reminder App"
 EOL
 
-cat <<EOL > submission_reminder_app/lib/functions.sh
+cat <<EOL > submission_reminder_app/modules/functions.sh
 #!/bin/bash
 # Functions for submission reminder app
 
@@ -13,25 +13,25 @@ function display_reminder() {
   echo "Reminder: Please submit your assignments."
 }
 EOL
-chmod +x submission_reminder_app/lib/functions.sh
+chmod +x submission_reminder_app/modules/functions.sh
 
-cat <<EOL > submission_reminder_app/bin/reminder.sh
+cat <<EOL > submission_reminder_app/app/reminder.sh
 #!/bin/bash
 # Reminder script
 
-source ../lib/functions.sh
+source ../modules/functions.sh
 display_reminder
 EOL
-chmod +x submission_reminder_app/bin/reminder.sh
+chmod +x submission_reminder_app/app/reminder.sh
 
-cat <<EOL > submission_reminder_app/data/submissions.txt
+cat <<EOL > submission_reminder_app/assets/submissions.txt
 # Student submissions
 Phillips Adams, Assignment 1
 Abbie Kate, Assignment 2
 Lati Tifare, Assignment 3
 EOL
 
-cat <<EOL >> submission_reminder_app/data/submissions.txt
+cat <<EOL >> submission_reminder_app/assets/submissions.txt
 Student 1, Assignment 3
 Student 2, Assignment 4
 Student 3, Assignment 5

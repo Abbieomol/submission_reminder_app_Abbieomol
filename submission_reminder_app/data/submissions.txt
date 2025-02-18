@@ -1,8 +1,9 @@
-# Student quizzes
-Kwame Nkrumah, Quiz 1
-Amina Yusuf, Quiz 2
-Student 1, Quiz 3
-Student 2, Quiz 4
-Student 3, Quiz 5
-Student 4, Quiz 6
-Student 5, Quiz 7
+# Student submissions
+Phillips Adams, Assignment 1
+Abbie Kate, Assignment 2
+Lati Tifare, Assignment 3
+Student 1, Assignment 3
+Student 2, Assignment 4
+Student 3, Assignment 5
+Student 4, Assignment 6
+Student 5, Assignment 7
