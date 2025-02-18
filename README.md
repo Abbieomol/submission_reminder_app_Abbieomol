@@ -1,4 +1,2 @@
-# INSTRUCTIONS TO FOLLOW
-
-## First,run the create_environment.sh file.When you are prompted to give your username,fill it in then run the startup.sh file which will then automatically run the submission app.
-~                          
+# shell_scripting_lab
+First,run the create_environment.sh file then wheen prompted to fill in your username, do so then run the startup.sh file which will run the submission app.
