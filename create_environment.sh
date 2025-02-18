@@ -1,36 +1,36 @@
 #!/bin/bash
-mkdir -p quiz_reminder_app/{bin,config,lib,data}
-cat <<EOL > quiz_reminder_app/config/config.env
-# Configuration file for the quiz reminder app
-APP_NAME="Quiz Reminder App"
+mkdir -p submission_reminder_app/{bin,config,lib,data}
+cat <<EOL > submission_reminder_app/config/config.env
+# Configuration file for the submission reminder app
+APP_NAME="Submission Reminder App"
 EOL
 
-cat <<EOL > quiz_reminder_app/lib/functions.sh
+cat <<EOL > Submission_reminder_app/lib/functions.sh
 #!/bin/bash
-# Functions for quiz reminder app
+# Functions for submission reminder app
 
 function display_reminder() {
-  echo "Reminder: Please complete your quizzes."
+  echo "Reminder: Please complete your submissions."
 }
 EOL
-chmod +x quiz_reminder_app/lib/functions.sh
+chmod +x submission_reminder_app/lib/functions.sh
 
-cat <<EOL > quiz_reminder_app/bin/reminder.sh
+cat <<EOL > submission_reminder_app/bin/reminder.sh
 #!/bin/bash
-# Quiz reminder script
+# submission reminder script
 
 source ../lib/functions.sh
 display_reminder
 EOL
-chmod +x quiz_reminder_app/bin/reminder.sh
+chmod +x submission_reminder_app/bin/reminder.sh
 
-cat <<EOL > quiz_reminder_app/data/quizzes.txt
+cat <<EOL > submission_reminder_app/data/submissions.txt
 # Student quizzes
 Kwame Nkrumah, Quiz 1
 Amina Yusuf, Quiz 2
 EOL
 
-cat <<EOL >> quiz_reminder_app/data/quizzes.txt
+cat <<EOL >> submission_reminder_app/data/submissions.txt
 Student 1, Quiz 3
 Student 2, Quiz 4
 Student 3, Quiz 5
