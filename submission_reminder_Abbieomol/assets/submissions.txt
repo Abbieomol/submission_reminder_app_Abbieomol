@@ -1,0 +1,15 @@
+#!/bin/bash
+
+student, assignment, submission status
+Chinemerem, Shell Navigation, not submitted
+Chiagoziem, Git, submitted
+Divine, Shell Navigation, not submitted
+Anissa, Shell Basics, submitted
+Alusa, Python, submitted
+Akiru, Intro to Linux, submitted
+Joyce, Foundations, not submitted
+Amra, CyberSecurity, submitted
+Abbie, Python, submitted
+Joseph, Git, not submitted
+Kayla, Shell Basics, not subbmitted
+Thomas, Shell Loops, not submitted
